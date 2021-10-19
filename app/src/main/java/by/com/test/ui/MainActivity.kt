@@ -43,6 +43,7 @@ class MainActivity : AppCompatActivity()  {
     override fun onDestroy() {
         super.onDestroy()
         productsAdapter = null
+        _binding = null
     }
 
     private fun initUi() {
